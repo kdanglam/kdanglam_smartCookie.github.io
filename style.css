@@ -119,6 +119,13 @@
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
+
+/*------------------------HEADER---------------------------*/
+
+.navbar {
+	list-style: none;
+}
+
 /*------------------------FOOTER---------------------------*/
 footer {
 	text-align: center;
