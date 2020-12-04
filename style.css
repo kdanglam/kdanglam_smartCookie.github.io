@@ -78,7 +78,7 @@ WRAPPER
         left: 50%; 
         display: block;
         position: absolute;
-	width: 750px;
+	/*width: 750px;*/
 	margin-top: -208.5px; 
 	margin-left: -375px; 
 	word-wrap: break-word;
