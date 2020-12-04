@@ -183,15 +183,6 @@ a hover {
 	text-decoration: none;
 }
 
-.container{
-  /*border: 2px solid black;*/
-  /*background-color: white;*/
-  /*color: black;*/
-  padding: 14px 28px;
-  /*font-size: 16px;*/
-  cursor: pointer;
-}
-
 
 /* =============================
 MENU
@@ -219,3 +210,30 @@ MENU
 	color:#111;
 }
 
+/*------------------------FOOTER---------------------------*/
+footer {
+	text-align: center;
+	padding: 5px;
+	background-color: #E9F4FB;
+	background-image: url('images/burrito.jpg');
+	margin-top: 10px;
+}
+
+.footer {
+	/*font-family: 'David Libre', serif;*/
+	font-size: 20px;
+}
+
+.footer a {
+	font-size: 15px;
+}
+
+.class_info {
+	/*font-family: 'Times New Roman', serif;*/
+	font-size: 15px;
+	color: #485157;
+}
+
+#main {
+	margin-top: 0;
+}
