@@ -43,11 +43,11 @@
 <centre>
 
 	<div> 
-			<button onclick="on('overlayA')" id="burrito" style="background-image: url(images/burrito.jpg); background-size=100%; width: 317px; height:177px">
+			<button onclick="on('overlay1')" id="burrito" style="background-image: url(images/burrito.jpg); background-size=100%; width: 317px; height:177px">
 			</button>
 	</div>
 
-	<div id="overlayA" onclick="off('overlayA')">
+	<div id="overlay1" onclick="off('overlay1')">
 		<div id="text">
 			<h3>Bean Burrito</h3>
 			<<iframe width="560" height="315" src="https://www.youtube.com/embed/7h70U1m5hFg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -109,7 +109,7 @@
   			document.getElementById(id).style.display = "none";
 		}
 
-		var button1 = document.querySelector("#french");
+		var button1 = document.querySelector("#burrito");
 		button1.addEventListener("mouseover", changeText);
        	button1.addEventListener("mouseout", changeBack);
 
