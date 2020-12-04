@@ -1,0 +1,221 @@
+/* =============================
+OVERLAYS
+============================= */
+
+#overlay1 {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#overlay2 {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#overlay3 {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#overlay4 {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 10px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+
+/* =============================
+WRAPPER
+============================= */
+
+.front_page {
+	top: 25%; /* IMPORTANT */
+        left: 50%; 
+        display: block;
+        position: absolute;
+	width: 750px;
+	margin-top: -208.5px; 
+	margin-left: -375px; 
+	word-wrap: break-word;
+}
+
+.navbar {
+	list-style: none;
+}
+
+
+/* =============================
+HEADERS
+============================= */
+
+@font-face {
+	font-family: 'PTSansNarrowRegular';
+	src: url('../fonts/pt_sans-narrow-web-regular-webfont.eot');
+	src: url('../fonts/pt_sans-narrow-web-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/pt_sans-narrow-web-regular-webfont.woff') format('woff'),
+		 url('../fonts/pt_sans-narrow-web-regular-webfont.ttf') format('truetype'),
+		 url('../fonts/pt_sans-narrow-web-regular-webfont.svg#PTSansNarrowRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.header {
+	font-family: 'PTSansNarrowRegular';
+	text-transform: uppercase;
+}
+
+.title {
+	font-family: 'PTSansNarrowRegular';
+	font-size: 20px;
+	text-transform: uppercase:
+	width: 100%;
+	line-height: 13px;
+	float: center;
+}
+
+h1 {
+	font-family: 'PTSansNarrowRegular';
+	font-size: 20px;
+	text-transform: uppercase:
+	width: 100%;
+	line-height: 13px
+}
+
+h2 {
+	font-family: 'PTSansNarrowRegular';
+	font-size: 30px;
+	text-transform: uppercase:
+	width: 100%;
+	line-height: 13px
+}
+
+h3 {
+	font-family: 'PTSansNarrowRegular';
+	font-size: 20px;
+	text-transform: uppercase:
+	width: 100%;
+	line-height: 13px
+}
+
+h3 {
+	font-family: 'PTSansNarrowRegular';
+	font-size: 20px;
+	text-transform: uppercase:
+	width: 100%;
+	line-height: 13px
+}
+
+h4 {
+	font-family: 'PTSansNarrowRegular';
+	font-size: 20px;
+	text-transform: uppercase:
+	width: 100%;
+	line-height: 13px
+}
+
+h5 {
+	font-family: 'PTSansNarrowRegular';
+	font-size: 20px;
+	text-transform: uppercase:
+	width: 100%;
+	line-height: 13px
+}
+
+body {
+	font-family: cambria;
+	font-size: 13px;
+	align: left;
+	background-color:#fff;
+}
+
+p {
+	font: arial;
+	font-size: 13px;
+	line-height: 12px;
+	align: left;
+	background-color:#fff;
+}
+
+a {
+	font: arial;
+	color: #999;
+	text-decoration: none;
+{
+
+a hover {
+	color: #888;
+	text-decoration: none;
+}
+
+
+/* =============================
+MENU
+============================= */
+
+.menu {
+	width:auto;
+	list-style:none;
+	font:normal normal 10px Verdana, Arial;
+	text-align:center;
+	margin:0 auto;
+}
+
+.menu a {
+	float:center;
+	color:#999;
+	text-decoration:none;
+	text-transform:uppercase;
+	width:auto;
+	line-height:36px;
+	padding:0 20px;
+}
+
+.menu a:hover,li.menuhover a{
+	color:#111;
+}
+
