@@ -183,6 +183,11 @@ a hover {
 	text-decoration: none;
 }
 
+#container div{
+    display:inline-block;
+    width:130px;
+}
+
 
 /* =============================
 MENU
