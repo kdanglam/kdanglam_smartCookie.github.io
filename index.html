@@ -5,7 +5,7 @@
 	<title>Smart Cookie</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<<!-- meta charset="utf-8"> -->
+	<!-- <meta charset="utf-8"> -->
 	<link href="style.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
 </HEAD>
@@ -17,7 +17,7 @@
 			<!-- -----INTERACTIVE HEADER GOES BACK TO HOME PAGE----- -->
 			<a href="index.html" style="text-decoration: none;"> 
 			<center>
-				<img src="images/logo.png" alt="" width="200">
+				<img src="images/logo.png" width="200">
 			</center>
 		</a><br>
 
@@ -57,39 +57,125 @@
 	<center>
 		<h2> RECIPES </h2><br>
 	
-	<div class="container">		
-		<div><h4 style="display: inline; padding: 14px 50px;">Breakfast</h4>
-		<h4  style="display: inline;padding: 14px 50px;">Lunch</h4>
-		<h4  style="display: inline;padding: 14px 50px;">Dinner</h4></div>
-		<button value="breakfast" id="b1" onclick="location.href='breakfast.html';" style=" background-image: url(images/breakfast.jpg); background-size:100%; height:177px; width:317px;"></button>
-		<!-- <img id="profile" src="images/breakfast.jpg" style="width:317px; height:177px" > -->
-		<!-- <h4>Lunch</h4> -->
-		<button value="lunch" id="b1" onclick="location.href='lunch.html';" style=" background-image: url(images/lunch.jpg); background-size:100%; height:177px; width:317px;"></button>
-		<!-- <img id="profile" src="images/lunch.jpg" style="width:317px; height:177px" > -->
-		<!-- <h4>Dinner</h4> -->
-		<button value="dinner" id="b1" onclick="location.href='dinner.html';" style=" background-image: url(images/dinner.jpg); background-size:100%; height:177px; width:317px;"></button>
-		<!-- <img id="profile" src="images/dinner.jpg" style="width:317px; height:177px" > -->
-	</div>
-</center>
-		<center>
+		<div><h4 style="display: inline;">Breakfast</h4>
+		<h4  style="display: inline; margin-left: 275px;">Lunch</h4>
+		<h4  style="display: inline; margin-left: 275px;">Dinner</h4></div>
+		<button value="breakfast" id="b1" onclick="location.href='breakfast.html';" style=" background-image: url(images/breakfast.jpg); background-size:100%; height:177px; width:317px; margin-left: 20px; margin-top: 25px;"></button>
+		<button value="lunch" id="b1" onclick="location.href='lunch.html';" style=" background-image: url(images/lunch.jpg); background-size:100%; height:177px; width:317px; margin-left: 20px; margin-top: 25px;"></button>
+		<button value="dinner" id="b1" onclick="location.href='dinner.html';" style=" background-image: url(images/dinner.jpg); background-size:100%; height:177px; width:317px; margin-left: 20px; margin-top: 25px;"></button>
+	</center>
+	<center>
 		<h5>Featured Today</h5>
 
 
-		<img id="profile" src="images/frenchtoast.jpeg" style="width:317px; height:177px" ><br>
+		<div>
+		<button onclick="on('overlay1')" id="french" style="background-image: url(images/frenchtoast.jpeg); background-size:100%; width:317px; height:177px"></button>
+	</div>
+
+	<div id="overlay1" onclick="off('overlay1')">
+  		<div id="text">
+  			<h3>French Toast</h3>
+
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/9hATdVf59sE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+			<h4>Ingredients</h4>
+
+			<ul>
+				<li>- 3 slices bread</li>
+				<li>- 2 eggs</li>
+				<li>- 3 tablespoons sugar</li>
+				<li>- 2 tablespoons powdered milk</li>
+				<li>- 1 teaspoon vanilla essence</li>
+				<li>- 2 tablespoon vegetable oil</li>
+				<li>- 1 tablespoon butter</li>
+			</ul>
+
+			<h4>Preparation</h4>
+
+			<ol>
+				<li>Cut bread into halves and set aside.</li>
+				<li>Crack eggs into a bowl and to them, add sugar, milk, vanilla essence and whisk.</li>
+				<li>Heat vegetable oil and butter in a skillet on low heat. Once the butter is melted, dip bread slices in egg mixture and toast in the skillet until golden-brown.</li>
+				<li>Serve with whipped cream, powdered sugar, and maple syrup.</li>
+				<li>Enjoy!</li>
+			</ol>
+
+  		</div>
+	</div>
+
+	<p>French Toast</p>
+	<p>For 2 Servings</p>
+		<!-- <img id="profile" src="images/frenchtoast.jpeg" style="width:317px; height:177px" ><br>
 		<a href="FrenchToast.html">French Toast</a>
-		<p></p>
-			<p>For 2 Servings</p>
+			<p>For 2 Servings</p> -->
 		<img id="profile" src="images/burrito.jpg" style="width:317px; height:177px" ><br>
 		<a href="burrito.html">Bean Burrito</a>
-		<p></p>
 			<p>For 2 Servings</p>
 		<img id="profile" src="images/chicken.jpg" style="width:317px; height:177px" ><br>
 		<a href="chicken.html">Mushroom Chicken</a>
-		<p></p>
 			<p>For 2 Servings</p>
 	</div>
 
+<!-- ----------JAVASCRIPT---------- -->
+	<script type="text/javascript">
+		function on(id) {
+ 	 		document.getElementById(id).style.display = "block";
+		}
+
+		function off(id) {
+  			document.getElementById(id).style.display = "none";
+		}
+
+		var button1 = document.querySelector("#french");
+		button1.addEventListener("mouseover", changeText);
+       	button1.addEventListener("mouseout", changeBack);
+
+       	var button2 = document.querySelector("#bell");
+       	button2.addEventListener("mouseover", changeText);
+       	button2.addEventListener("mouseout", changeBack);
+
+       	var button3 = document.querySelector("#pan");
+       	button3.addEventListener("mouseover", changeText);
+       	button3.addEventListener("mouseout", changeBack);
+
+       	var button4 = document.querySelector("#fruit");
+       	button4.addEventListener("mouseover", changeText);
+       	button4.addEventListener("mouseout", changeBack);
+
+       // ========== ADD TIME IN TEXT CONTENT==========
+
+       	function changeText(){
+       		if(this.id == "french"){
+       			this.textContent = "time";
+      		}
+      		else if(this.id == "bell"){
+      			this.textContent = "time";
+      		}
+      		else if(this.id == "pan"){
+      			this.textContent = "time";
+      		}
+      		else{
+      			this.textContent = "time";
+      		}
+       	}
+
+       function changeBack(){
+       		if(this.id == "french"){
+       			this.textContent = "";
+       		}
+       		else if(this.id == "bell"){
+       			this.textContent = "";
+       		}
+       		else if(this.id == "pan"){
+       			this.textContent = "";
+       		}
+       		else{
+       			this.textContent = "";
+       		}
+       }
+	</script>
 	<!-- ----------------------FOOTER--------------------- -->
+
 	<footer id="main">
 		<p class="footer">
 			Created by: Shelby Bushell, Rachel Au, Katy Lee, and Kum San Vanessa Amy Dang-Lam<br>
@@ -100,6 +186,7 @@
 			@Smart Cookie 2020
 		</p>
 	</footer>
+
 
 </body>
 </html>
