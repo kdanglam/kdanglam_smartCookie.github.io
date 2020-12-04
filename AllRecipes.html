@@ -44,16 +44,28 @@
 
 <!-- -------------DIFFERENT ON EACH PAGE------------ -->
 <!-- -------------------ALL RECIPES PAGE-------------------- -->
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+    <a href=".breakfast">Breakfast</a>
+    <a href=".lunch">Lunch</a>
+    <a href=".dinner">Dinner</a>
+
+  </div>
+</div>
+
 	<center>	
-		<!-- OVERLAY1 -->
-		<img id="profile" src="images/burrito.jpg" style="width:317px; height:177px" >
+		<!-- OVERLAY1 Time: 20, Cost: $5, Ratings 4/5-->
+		<img class="lunch" id="profile" src="images/burrito.jpg" style="width:317px; height:177px" >
 		<a href="burrito.html">
 		<p>Bean Burrito</p></a>
 			<p>For 2 Servings</p>
 
-		<!-- OVERLAY2 -->
+		<!-- OVERLAY2 Time: 25, Cost: $4, Ratings 5/5-->
 		<div>
-			<button onclick="on('overlay2')" id= "bell" style="background-image: url(images/bellpeppereggs.jpg); background-size:100%; width:317px; height:177px"></button>
+			<button onclick="on('overlay2')" class="breakfast" id= "bell" style="background-image: url(images/bellpeppereggs.jpg); background-size:100%; width:317px; height:177px"></button>
 		</div>
 
 		<div id="overlay2" onclick="off('overlay2')">
@@ -89,27 +101,27 @@
 		<p>For 2 Servings</p>
 
 
-		<!-- OVERLAY3 -->
-		<img id="profile" src="images/bibimbap.jpg" style="width:317px; height:177px" >
+		<!-- OVERLAY3 Time: 30, Cost: $7, Ratings 5/5-->
+		<img id="profile" class="lunch" src="images/bibimbap.jpg" style="width:317px; height:177px" >
 		<p>Bibimbap</p>
 		<p></p>
 			<p>For 2 Servings</p>
 
-		<!-- OVERLAY4 -->
-		<img id="profile" src="images/chicken.jpg" style="width:317px; height:177px" >
+		<!-- OVERLAY4 Time: 45, Cost: $20, Ratings 3/5-->
+		<img id="profile" class="dinner" src="images/chicken.jpg" style="width:317px; height:177px" >
 		<a href="chicken.html">
 		<p>Mushroom Chicken</p></a>
 			<p>For 2 Servings</p>
 
-		<!-- OVERLAY5 -->
-		<img id="profile" src="images/chickenbreast.jpg" style="width:317px; height:177px" >
+		<!-- OVERLAY5 Time: 35, Cost: $12, Ratings 4/5-->
+		<img id="profile" class="lunch" src="images/chickenbreast.jpg" style="width:317px; height:177px" >
 		<p>Chicken Breast</p>
 		<p></p>
 			<p>For 2 Servings</p>
 
-		<!-- OVERLAY6 -->
+		<!-- OVERLAY6 Time: 15, Cost: $3, Ratings 5/5-->
 		<div>
-			<button onclick="on('overlay1')" id="french" style="background-image: url(images/frenchtoast.jpeg); background-size:100%; width:317px; height:177px"></button>
+			<button onclick="on('overlay1')" id="french" class="breakfast" style="background-image: url(images/frenchtoast.jpeg); background-size:100%; width:317px; height:177px"></button>
 		</div>
 
 		<div id="overlay1" onclick="off('overlay1')">
@@ -147,9 +159,9 @@
 		<p>For 2 Servings</p>
 
 
-		<!-- OVERLAY7 -->
+		<!-- OVERLAY7 Time: 5, Cost: $1, Ratings 5/5-->
 		<div>
-			<button onclick="on('overlay4')" id= "fruit" style="background-image: url(images/fruityogurt.jpg); background-size:100%; width:317px; height:177px"></button>
+			<button onclick="on('overlay4')" id= "fruit" class="breakfast" style="background-image: url(images/fruityogurt.jpg); background-size:100%; width:317px; height:177px"></button>
 		</div>
 
 		<div id="overlay4" onclick="off('overlay4')">
@@ -183,21 +195,21 @@
 		<p>For 2 Servings</p>
 
 
-		<!-- OVERLAY8 -->
-		<img id="profile" src="images/lasagna.jpg" style="width:317px; height:177px" >
+		<!-- OVERLAY8 Time: 40, Cost: $13, Ratings 3/5-->
+		<img id="profile" class="dinner" src="images/lasagna.jpg" style="width:317px; height:177px" >
 		<p>Lasagna</p>
 		<p></p>
 			<p>For 2 Servings</p>
 
 		<!-- OVERLAY9 -->
-		<img id="profile" src="images/noodles.png" style="width:317px; height:177px" >
+		<img id="profile" class="lunch" src="images/noodles.png" style="width:317px; height:177px" >
 		<p>Noodles</p>
 		<p></p>
 			<p>For 2 Servings</p>
 
-		<!-- OVERLAY10 -->
+		<!-- OVERLAY10 Time: 20, Cost: $8, Ratings 4/5-->
 		<div>
-			<button onclick="on('overlay3')"id="pan" style="background-image: url(images/pancakes.jpg); background-size:100%; width:317px; height:177px"></button>
+			<button onclick="on('overlay3')"id="pan" class="breakfast" style="background-image: url(images/pancakes.jpg); background-size:100%; width:317px; height:177px"></button>
 		</div>
 
 		<div id="overlay3" onclick="off('overlay3')">
@@ -238,14 +250,14 @@
 		<p>Fluffy Pancakes</p>
 		<p>For 2 Servings</p>
 
-		<!-- OVERLAY11 -->
-		<img id="profile" src="images/salmon.jpeg" style="width:317px; height:177px" >
+		<!-- OVERLAY11 Time: 25, Cost: $15, Ratings 5/5-->
+		<img id="profile" class="dinner" src="images/salmon.jpeg" style="width:317px; height:177px" >
 		<p>Salmon and Kale</p>
 		<p></p>
 			<p>For 2 Servings</p>
 
-		<!-- OVERLAY12 -->
-		<img id="profile" src="images/spaghetti.jpg" style="width:317px; height:177px" >
+		<!-- OVERLAY12 Time: 40, Cost: $12, Ratings 5/5 -->
+		<img id="profile" class="dinner" src="images/spaghetti.jpg" style="width:317px; height:177px" >
 		<p>Spaghetti and Meatballs</p>
 		<p></p>
 			<p>For 2 Servings</p>
@@ -342,6 +354,32 @@
        		this.textContent = "";
        	}
        }
+
+// ==========FILTER SEARCH BAR 
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+
+
+
 	</script>
 	
 
