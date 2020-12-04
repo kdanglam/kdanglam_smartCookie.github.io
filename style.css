@@ -73,16 +73,7 @@ OVERLAYS
 WRAPPER
 ============================= */
 
-.front_page {
-	top: 25%; /* IMPORTANT */
-        left: 5%; 
-        display: block;
-        position: absolute;
-	/*width: 750px;*/
-	margin-top: -208.5px; 
-	/*margin-left: -375px; */
-	word-wrap: break-word;
-}
+
 
 .navbar {
 	list-style: none;
