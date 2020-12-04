@@ -37,16 +37,15 @@
 
 <!-- -------------DIFFERENT ON EACH PAGE------------ -->
 <!-- -------------------LUNCH PAGE-------------------- -->
-<centre>
-
+<center>
+	
 	<div>
-		<button onclick="on('overlay1')" iid="burrito" style="background-image: url(images/burrito.jpg); background-size:100%; width:317px; height:177px"></button>
+		<button onclick="on('overlay1')" id="french" style="background-image: url(images/frenchtoast.jpeg); background-size:100%; width:317px; height:177px"></button>
 	</div>
 
 	<div id="overlay1" onclick="off('overlay1')">
-		<div id="text">
-			<h3>Bean Burrito</h3>
-			<<iframe width="560" height="315" src="https://www.youtube.com/embed/7h70U1m5hFg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  		<h3>Bean Burrito</h3>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/7h70U1m5hFg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			<h4>Ingredients</h4>
 			<ul>
 				<li>1 tbsp canola oil</li>
@@ -93,10 +92,10 @@
 		<p></p>
 			<p>For 2 Servings</p>
 
-		<a href="allrecipes.html">Visit Smart Cookie for more Recipes</a>
-	</div>
 
-	<!-- ----------JAVASCRIPT---------- -->
+	<a href="allrecipes.html">Visit Smart Cookie for more Recipes</a>
+
+<!-- ----------JAVASCRIPT---------- -->
 	<script type="text/javascript">
 		function on(id) {
  	 		document.getElementById(id).style.display = "block";
@@ -106,26 +105,26 @@
   			document.getElementById(id).style.display = "none";
 		}
 
-		var button1 = document.querySelector("#burrito");
+		var button1 = document.querySelector("#french");
 		button1.addEventListener("mouseover", changeText);
        	button1.addEventListener("mouseout", changeBack);
 
-       	// var button2 = document.querySelector("#bell");
-       	// button2.addEventListener("mouseover", changeText);
-       	// button2.addEventListener("mouseout", changeBack);
+       	var button2 = document.querySelector("#bell");
+       	button2.addEventListener("mouseover", changeText);
+       	button2.addEventListener("mouseout", changeBack);
 
-       	// var button3 = document.querySelector("#pan");
-       	// button3.addEventListener("mouseover", changeText);
-       	// button3.addEventListener("mouseout", changeBack);
+       	var button3 = document.querySelector("#pan");
+       	button3.addEventListener("mouseover", changeText);
+       	button3.addEventListener("mouseout", changeBack);
 
-       	// var button4 = document.querySelector("#fruit");
-       	// button4.addEventListener("mouseover", changeText);
-       	// button4.addEventListener("mouseout", changeBack);
+       	var button4 = document.querySelector("#fruit");
+       	button4.addEventListener("mouseover", changeText);
+       	button4.addEventListener("mouseout", changeBack);
 
        // ========== ADD TIME IN TEXT CONTENT==========
 
        	function changeText(){
-       		if(this.id == "burrito"){
+       		if(this.id == "french"){
        			this.textContent = "time";
       		}
       		else if(this.id == "bell"){
@@ -140,7 +139,7 @@
        	}
 
        function changeBack(){
-       		if(this.id == "burrito"){
+       		if(this.id == "french"){
        			this.textContent = "";
        		}
        		else if(this.id == "bell"){
@@ -155,7 +154,8 @@
        }
 	</script>
 
-	<!-- ----------------------FOOTER--------------------- -->
+
+<!-- ----------------------FOOTER--------------------- -->
 	<footer id="main">
 		<p class="footer">
 			Created by: Shelby Bushell, Rachel Au, Katy Lee, and Kum San Vanessa Amy Dang-Lam<br>
