@@ -106,11 +106,9 @@
 
 	<p>French Toast</p>
 	<p>For 2 Servings</p>
-		<!-- <img id="profile" src="images/frenchtoast.jpeg" style="width:317px; height:177px" ><br>
-		<a href="FrenchToast.html">French Toast</a>
-			<p>For 2 Servings</p> -->
+		
 	<div>
-		<button onclick="on('overlay1')" id="burrito" style="background-image: url(images/burrito.jpg); background-size:100%; width:317px; height:177px"></button>
+		<button onclick="on('overlay2')" id="burrito" style="background-image: url(images/burrito.jpg); background-size:100%; width:317px; height:177px"></button>
 	</div>
 	<div id="overlay2" onclick="off('overlay2')">
   		<h3>Bean Burrito</h3>
@@ -147,12 +145,50 @@
 
 		<p>Burrito</p>
 		<p>For 2 Servings</p>
-		<!-- <img id="profile" src="images/burrito.jpg" style="width:317px; height:177px" ><br>
-		<a href="burrito.html">Bean Burrito</a>
-			<p>For 2 Servings</p> -->
-		<img id="profile" src="images/chicken.jpg" style="width:317px; height:177px" ><br>
-		<a href="chicken.html">Mushroom Chicken</a>
-			<p>For 2 Servings</p>
+
+	<div>
+		<button onclick="on('overlay3')" id= "chicken" style="background-image: url(images/chicken.jpg); background-size:100%; width:317px; height:177px"></button>
+	</div>
+
+	<div id="overlay3" onclick="off('overlay3')">
+  		<div id="text">
+  			<h3>Mushroom Chicken</h3>
+
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/PKOpu2TBKMo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+			<h4>Ingredients</h4>
+
+			<ul>
+				<li>1/2 lb mushrooms rinsed and patted dry</li>
+				<li>1 lb chicken tenders</li>
+				<li>1 1/2 teaspoon garlic salt to taste</li>
+				<li>1 tablespoon butter </li>
+				<li>1 tablespoon olive oil</li>
+				<li>1/4 cup chopped fresh dill</li>
+				<li>1/4 cup chopped fresh parsley</li>
+				<li>1/4 cup chopped green onion</li>
+				<li>2 garlic cloves, minced</li>
+				<li>3/4 cup heavy whipping cream</li>
+
+			</ul>
+
+			<h4>Preparation</h4>
+
+			<ol>
+				<li>Mince garlic.</li>
+				<li>Chop herbs.</li>
+				<li>Thinly slice mushrooms.</li>
+				<li>Heat a large heavy skillet over medium heat and add 1/2 Tbsp butter and 1/2 Tbsp oil. Once oil is hot, add thickly sliced mushrooms and season with 1/2 tsp garlic salt. Let mushrooms sizzle about 5 min, stirring occasionally until they are golden brown then remove to a plate.</li>
+				<li>Season chicken all over with 1 tsp garlic salt. In the same pan over medium heat, add another 1/2 Tbsp butter and 1/2 Tbsp oil. Add chicken in a single layer and sauté about 2 min on each side or until just cooked through. </li>
+				<li>Add minced garlic and sauté 1 minute, stirring frequently until garlic is fragrant. Add chopped dill, parsley, green onion to the pan and sauté/stir another 1 minute to soften herbs.</li>
+				<li>Return mushrooms to the pan then stir in 3/4 cup heavy cream. Bring to a light boil and continue to cook 2 min until sauce is slightly thickened then remove from heat. Sauce will thicken more as it cools. Season with more garlic salt, to taste if needed.</li>
+				<li>Enjoy!</li>
+			</ol>
+  		</div>
+	</div>
+
+	<p>Mushroom Chicken</p>
+	<p>For 2 Servings</p>
 	</div>
 
 <!-- ----------JAVASCRIPT---------- -->
@@ -173,28 +209,21 @@
        	button2.addEventListener("mouseover", changeText);
        	button2.addEventListener("mouseout", changeBack);
 
-       	var button3 = document.querySelector("#pan");
+       	var button3 = document.querySelector("#chicken");
        	button3.addEventListener("mouseover", changeText);
        	button3.addEventListener("mouseout", changeBack);
-
-       	var button4 = document.querySelector("#fruit");
-       	button4.addEventListener("mouseover", changeText);
-       	button4.addEventListener("mouseout", changeBack);
 
        // ========== ADD TIME IN TEXT CONTENT==========
 
        	function changeText(){
        		if(this.id == "french"){
-       			this.textContent = "time";
+       			this.textContent = "Time: 15 minutes \r\n Cost: $3 \r\n Ratings: 5/5";
       		}
       		else if(this.id == "burrito"){
-      			this.textContent = "time";
-      		}
-      		else if(this.id == "pan"){
-      			this.textContent = "time";
+      			this.textContent = "Time: 20 minutes \r\n Cost: $5 \r\n Ratings: 4/5";
       		}
       		else{
-      			this.textContent = "time";
+      			this.textContent = "tTime: 45 minutes \r\n Cost: $20 \r\n Ratings: 3/5";
       		}
        	}
 
@@ -203,9 +232,6 @@
        			this.textContent = "";
        		}
        		else if(this.id == "burrito"){
-       			this.textContent = "";
-       		}
-       		else if(this.id == "pan"){
        			this.textContent = "";
        		}
        		else{
