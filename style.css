@@ -78,6 +78,7 @@ footer {
 .footer {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
+	background-color: transparent;
 }
 
 .footer a {
@@ -88,15 +89,14 @@ footer {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
 	color: #485157;
+	background-color: transparent;
 }
 
 #main {
 	margin-top: 0;
 }
 
-/* =============================
-HEADERS
-============================= */
+/*------------------------HEADER--------------------------*/
 
 .header {
 	font-family: 'PT Sans Narrow', sans-serif;
@@ -181,11 +181,10 @@ a {
 	text-decoration: none;
 {
 
-/*a hover {
+a hover {
 	color: #888;
 	text-decoration: none;
 }
-*/
 
 
 /* =============================
