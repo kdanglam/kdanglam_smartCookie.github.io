@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 	<meta charset="utf-8">
-	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
 </HEAD>
 
@@ -16,10 +16,11 @@
 		<div class="header" id="header">
 			<!-- -----INTERACTIVE HEADER GOES BACK TO HOME PAGE----- -->
 			<a href="SmartCookie3.html" style="text-decoration: none;"> 
-			<center>
-				<img src="images/logo.png" alt="" width="200">
-			</center>
-		</a><br>
+<center><img src="images/logo.png" alt="" width="200"></center></a><br>
+				
+				
+			
+	
 
 		<div class="navbar"><center>
 			<h1><!-- -------HOME------- -->
@@ -34,157 +35,47 @@
 			<a href="AllRecipes.html">All Recipes</a></center><br></h1>
 		</div>
 </div>
-
 <!-- -------------DIFFERENT ON EACH PAGE------------ -->
-<!-- -------------------BREAKFAST PAGE-------------------- -->
+<!-- -------------------HOME PAGE-------------------- -->
 <center>
-	
-	<div>
-		<button onclick="on('overlay1')" id="french" style="background-image: url(images/frenchtoast.jpeg); background-size:100%; width:317px; height:177px"></button>
+		<div id="margin">
+		<center><img id="profile" src="images/healthyfood.jpg" style="width:621px" ></center>
+
+		<div id="AboutMe">
+			<p class="paragraph">
+				Welcome to Smart Cookie! A simple and intuitive digital recipe cookbook made for everyone! From millenial chefs to homecooks, we have every recipe you'll need.
+			</p>
+		</div>
+
+		</div>
+<div id="body">
+<h2> RECIPES </h2><br>
+			
+		<h4>Breakfast</h4>
+		<img id="profile" src="images/breakfast.jpg" style="width:317px; height:177px" >
+		<h4>Lunch</h4>
+		<img id="profile" src="images/lunch.jpg" style="width:317px; height:177px" >
+		<h4>Dinner</h4>
+		<img id="profile" src="images/dinner.jpg" style="width:317px; height:177px" >
+
+		<h5>Featured Today</h5>
+
+
+		<img id="profile" src="images/frenchtoast.jpeg" style="width:317px; height:177px" ><br>
+		<a href="FrenchToast.html">French Toast</a>
+		<p></p>
+			<p>For 2 Servings</p>
+		<img id="profile" src="images/burrito.jpg" style="width:317px; height:177px" ><br>
+		<a href="burrito.html">Bean Burrito</a>
+		<p></p>
+			<p>For 2 Servings</p>
+		<img id="profile" src="images/chicken.jpg" style="width:317px; height:177px" ><br>
+		<a href="chicken.html">Mushroom Chicken</a>
+		<p></p>
+			<p>For 2 Servings</p>
 	</div>
 
-	<div id="overlay1" onclick="off('overlay1')">
-  		<div id="text">
-  			<h3>French Toast</h3>
-
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/9hATdVf59sE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-			<h4>Ingredients</h4>
-
-			<ul>
-				<li>- 3 slices bread</li>
-				<li>- 2 eggs</li>
-				<li>- 3 tablespoons sugar</li>
-				<li>- 2 tablespoons powdered milk</li>
-				<li>- 1 teaspoon vanilla essence</li>
-				<li>- 2 tablespoon vegetable oil</li>
-				<li>- 1 tablespoon butter</li>
-			</ul>
-
-			<h4>Preparation</h4>
-
-			<ol>
-				<li>Cut bread into halves and set aside.</li>
-				<li>Crack eggs into a bowl and to them, add sugar, milk, vanilla essence and whisk.</li>
-				<li>Heat vegetable oil and butter in a skillet on low heat. Once the butter is melted, dip bread slices in egg mixture and toast in the skillet until golden-brown.</li>
-				<li>Serve with whipped cream, powdered sugar, and maple syrup.</li>
-				<li>Enjoy!</li>
-			</ol>
-
-  		</div>
-	</div>
-
-	<p>French Toast</p>
-	<p>For 2 Servings</p>
-
-	<div>
-		<button onclick="on('overlay2')" id= "bell" style="background-image: url(images/bellpeppereggs.jpg); background-size:100%; width:317px; height:177px"></button>
-	</div>
-
-	<div id="overlay2" onclick="off('overlay2')">
-  		<div id="text">
-  			<!-- =========
-  			MISSING INFO
-  			=========== -->
-  			<p>MISSING INFO!!!</p>
-  		</div>
-	</div>
-	<p>Bell Pepper Egg Cups</p>
-	<p>For 2 Servings</p>
-
-	<div>
-		<button onclick="on('overlay3')"id="pan" style="background-image: url(images/pancakes.jpg); background-size:100%; width:317px; height:177px"></button>
-	</div>
-
-	<div id="overlay3" onclick="off('overlay3')">
-  		<div id="text">
-  			<!-- =========
-  			MISSING INFO
-  			=========== -->
-  			<p>MISSING INFO!!!</p>
-  		</div>
-	</div>
-	<p>Fluffy Pancakes</p>
-	<p>For 2 Servings</p>
-
-	<div>
-		<button onclick="on('overlay4')" id= "fruit" style="background-image: url(images/fruityogurt.jpg); background-size:100%; width:317px; height:177px"></button>
-	</div>
-
-	<div id="overlay4" onclick="off('overlay4')">
-  		<div id="text">
-  			<!-- =========
-  			MISSING INFO
-  			=========== -->
-  			<p>MISSING INFO!!!</p>
-  		</div>
-	</div>
-	<p>Fruit Yogurt</p>
-	<p>For 2 Servings</p>
-
-
-	<a href="allrecipes.html">Visit Smart Cookie for more Recipes</a>
-
-	<script type="text/javascript">
-		function on(id) {
- 	 	document.getElementById(id).style.display = "block";
-		}
-
-		function off(id) {
-  		document.getElementById(id).style.display = "none";
-		}
-
-		var button1 = document.querySelector("#french");
-		button1.addEventListener("mouseover", changeText);
-       	button1.addEventListener("mouseout", changeBack);
-
-       	var button2 = document.querySelector("#bell");
-       	button2.addEventListener("mouseover", changeText);
-       	button2.addEventListener("mouseout", changeBack);
-
-       	var button3 = document.querySelector("#pan");
-       	button3.addEventListener("mouseover", changeText);
-       	button3.addEventListener("mouseout", changeBack);
-
-       	var button4 = document.querySelector("#fruit");
-       	button4.addEventListener("mouseover", changeText);
-       	button4.addEventListener("mouseout", changeBack);
-
-       // ========== ADD TIME IN TEXT CONTENT==========
-
-       	function changeText(){
-       	if(this.id == "french"){
-       		this.textContent = "time";
-      	}
-      	else if(this.id == "bell"){
-      		this.textContent = "time";
-      	}
-      	else if(this.id == "pan"){
-      		this.textContent = "time";
-      	}
-      	else{
-      		this.textContent = "time";
-      	}
-       }
-
-       function changeBack(){
-       	if(this.id == "french"){
-       		this.textContent = "";
-       	}
-       	else if(this.id == "bell"){
-       		this.textContent = "";
-       	}
-       	else if(this.id == "pan"){
-       		this.textContent = "";
-       	}
-       	else{
-       		this.textContent = "";
-       	}
-       }
-	</script>
-
-
-<!-- ----------------------FOOTER--------------------- -->
+	<!-- ----------------------FOOTER--------------------- -->
 	<footer id="main">
 		<p class="footer">
 			Created by: Shelby Bushell, Rachel Au, Katy Lee, and Kum San Vanessa Amy Dang-Lam<br>
