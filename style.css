@@ -1,4 +1,17 @@
 /*------------------------OVERLAYS---------------------------*/
+ul {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 13px;
+  font-color: #ffffff;
+  text-align: left;
+}
+
+ol {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 13px;
+  font-color: #ffffff;
+  text-align: left;
+}
 
 
 #overlay1 {
@@ -13,9 +26,6 @@
   background-color: rgba(0,0,0,0.5);
   z-index: 2;
   cursor: pointer;
-  font-family: 'Work Sans';
-  font-size: 12px;
-  font-color: white;
 }
 
 #overlay2 {
@@ -30,9 +40,6 @@
   background-color: rgba(0,0,0,0.5);
   z-index: 2;
   cursor: pointer;
-  font-family: 'Work Sans';
-  font-size: 12px;
-  font-color: white;
 }
 
 #overlay3 {
@@ -47,9 +54,6 @@
   background-color: rgba(0,0,0,0.5);
   z-index: 2;
   cursor: pointer;
-  font-family: 'Work Sans';
-  font-size: 12px;
-  font-color: white;
 }
 
 #overlay4 {
@@ -64,9 +68,6 @@
   background-color: rgba(0,0,0,0.5);
   z-index: 2;
   cursor: pointer;
-  font-family: 'Work Sans';
-  font-size: 12px;
-  font-color: white;
 }
 
 #overlay5 {
@@ -81,9 +82,6 @@
   background-color: rgba(0,0,0,0.5);
   z-index: 2;
   cursor: pointer;
-  font-family: 'Work Sans';
-  font-size: 12px;
-  font-color: white;
 }
 
 #overlay6 {
@@ -98,9 +96,6 @@
   background-color: rgba(0,0,0,0.5);
   z-index: 2;
   cursor: pointer;
-  font-family: 'Work Sans';
-  font-size: 12px;
-  font-color: white;
 }
 
 #overlay7 {
@@ -115,9 +110,6 @@
   background-color: rgba(0,0,0,0.5);
   z-index: 2;
   cursor: pointer;
-  font-family: 'Work Sans';
-  font-size: 12px;
-  font-color: white;
 }
 
 #overlay8 {
@@ -132,9 +124,6 @@
   background-color: rgba(0,0,0,0.5);
   z-index: 2;
   cursor: pointer;
-  font-family: 'Work Sans';
-  font-size: 12px;
-  font-color: white;
 }
 
 #overlay9 {
@@ -149,9 +138,6 @@
   background-color: rgba(0,0,0,0.5);
   z-index: 2;
   cursor: pointer;
-  font-family: 'Work Sans';
-  font-size: 12px;
-  font-color: white;
 }
 
 #overlay10 {
@@ -166,9 +152,6 @@
   background-color: rgba(0,0,0,0.5);
   z-index: 2;
   cursor: pointer;
-  font-family: 'Work Sans';
-  font-size: 12px;
-  font-color: white;
 }
 
 #overlay11 {
@@ -183,9 +166,6 @@
   background-color: rgba(0,0,0,0.5);
   z-index: 2;
   cursor: pointer;
-  font-family: 'Work Sans';
-  font-size: 12px;
-  font-color: white;
 }
 
 #overlay12 {
@@ -200,9 +180,6 @@
   background-color: rgba(0,0,0,0.5);
   z-index: 2;
   cursor: pointer;
-  font-family: 'Work Sans';
-  font-size: 12px;
-  font-color: white;
 }
 
 #text{
@@ -405,13 +382,6 @@ h5 {
   text-transform: uppercase:
   width: 100%;
   line-height: 13px
-}
-
-body {
-  font-family: cambria;
-  font-size: 13px;
-  align: left;
-  background-color:#fff;
 }
 
 p {
