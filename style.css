@@ -1,3 +1,11 @@
+body
+{
+   font-size: 1em !important;
+   color: #000 !important;
+   font-size: 12px;
+   font-family: Arial !important;
+}
+
 /*------------------------OVERLAYS---------------------------*/
 ul {
   font-family: 'Work Sans', sans-serif;
@@ -12,7 +20,6 @@ ol {
   font-color: #ffffff;
   text-align: left;
 }
-
 
 #overlay1 {
   position: fixed;
@@ -209,16 +216,18 @@ ol {
 
 /*-------------DROPDOWN FILTER FOR ALL RECIPES PAGE-----------*/
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: #999;
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  padding: 12px;
+  font-family: arial;
+  font-size: 13px;
   border: none;
   cursor: pointer;
 }
 
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #3e8e41;
+  background-color: #000;
+  font-color: #fff;
 }
 
 #myInput {
@@ -243,6 +252,8 @@ ol {
   display: none;
   position: absolute;
   background-color: #f6f6f6;
+  font-family: arial;
+  font-size: 12px;
   min-width: 230px;
   overflow: auto;
   border: 1px solid #ddd;
@@ -299,11 +310,12 @@ ol {
   color: white;
 }
 
-/*.center {
-  text-align:center; 
-  margin:0px 5px;
-;
-*/
+.container {
+  align: center; 
+  width:70%;
+  height: 50%;
+}
+
 /*------------------------HEADER---------------------------*/
 
 .navbar {
@@ -313,15 +325,19 @@ ol {
 /*------------------------FOOTER---------------------------*/
 footer {
   text-align: center;
-  padding: 5px;
-  background-color: #E9F4FB;
-  background-image: url('images/cookie.gif');
+  background-color: #f4f4f4;
   margin-top: 10px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  width: 100%;
+  bottom: 0px;
 }
 
 .footer {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-family: arial;
+  font-size: 12px;
   background-color: transparent;
 }
 
@@ -330,8 +346,8 @@ footer {
 }
 
 .class_info {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
+  font-family: arial;
+  font-size: 12px;
   color: #485157;
   background-color: transparent;
 }
@@ -447,6 +463,3 @@ MENU
 .menu a:hover,li.menuhover a{
   color:#111;
 }*/
-
-
-
