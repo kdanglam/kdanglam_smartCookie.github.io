@@ -54,6 +54,7 @@ ol {
   background-color: rgba(0,0,0,0.5);
   z-index: 2;
   cursor: pointer;
+  overflow-y: scroll;
 }
 
 #overlay4 {
@@ -124,6 +125,7 @@ ol {
   background-color: rgba(0,0,0,0.5);
   z-index: 2;
   cursor: pointer;
+  overflow-y: scroll;
 }
 
 #overlay9 {
@@ -190,6 +192,9 @@ ol {
   color: white;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
+}
+.txt{
+  color: black;
 }
 
 /*-------------DROPDOWN FILTER FOR ALL RECIPES PAGE-----------*/
@@ -271,7 +276,7 @@ ol {
   border: none;
   outline: none;
   padding: 12px 16px;
-  background-color: #f1f1f1;
+  /*background-color: #f1f1f1;*/
   cursor: pointer;
 }
 
@@ -284,6 +289,11 @@ ol {
   color: white;
 }
 
+/*.center {
+  text-align:center; 
+  margin:0px 5px;
+;
+*/
 /*------------------------HEADER---------------------------*/
 
 .navbar {
