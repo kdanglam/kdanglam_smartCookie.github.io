@@ -5,11 +5,12 @@
 	<title>Smart Cookie</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <meta charset="utf-8"> -->
 	<link href="style.css" rel="stylesheet" type="text/css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href=“https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=PT+Sans+Narrow&family=Work+Sans:wght@500&display=swap” rel=“stylesheet”>
-
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
 </HEAD>
+
 <body>
 	<div class="front_page">
 
@@ -17,14 +18,12 @@
 			<!-- -----INTERACTIVE HEADER GOES BACK TO HOME PAGE----- -->
 			<a href="index.html" style="text-decoration: none;"> 
 			<center>
-				<img src="images/logo.png" width="200">
+				<img src="images/logo.png" alt="" width="200">
 			</center>
 		</a><br>
 
-		<div class="navbar">
-			<center>
-			<h1>
-			<!-- -------HOME------- -->
+		<div class="navbar"><center>
+			<h1><!-- -------HOME------- -->
 			<a href="index.html">Home</a> &nbsp|
 			<!-- ------BREAKFAST------ -->
 			<a href="breakfast.html">Breakfast</a>&nbsp|
@@ -33,21 +32,20 @@
 			<!-- ------DINNER------- -->
 			<a href="dinner.html">Dinner</a>&nbsp|
 			<!-- ------ALL------- -->
-			<a href="AllRecipes.html">All Recipes</a>
-			</center><br>
-			</h1>
+			<a href="AllRecipes.html">All Recipes</a></center><br></h1>
 		</div>
-	</div>
+</div>
 
 <!-- -------------DIFFERENT ON EACH PAGE------------ -->
 <!-- -------------------TIME PAGE-------------------- -->
 
+	</div><center>
 	<div id="myBtnContainer">
   		<button class="btn active" onclick="filterSelection('all')"> Show all</button>
   		<button class="btn" onclick="filterSelection('breakfast')"> Breakfast</button>
   		<button class="btn" onclick="filterSelection('lunch')"> Lunch</button>
   		<button class="btn" onclick="filterSelection('dinner')"> Dinner</button>
-	</div>
+	
 
 	<div class="dropdown">
 	  <button onclick="myFunction()" class="dropbtn">Sort By</button>
@@ -59,8 +57,9 @@
 	    <a href="rating.html">Rating</a>
 	  </div>
 	</div>
+<br><br>
 <center>
-
+	<div class="container">
 <!-- OVERLAY7 Time: 5, Cost: $1, Ratings 5/5-->
 <div id="7">
 		<div>
@@ -628,8 +627,6 @@
 		</div>
 </div>
 
-	<a href="index.html">Visit Smart Cookie for more Recipes</a>
-
 </center>
 
 <!-- </div> -->
@@ -842,21 +839,22 @@ toggle between hiding and showing the dropdown content */
 	}
 	</script>
 
-
-	<!-- ----------------------FOOTER--------------------- -->
+<!-- ----------------------FOOTER--------------------- -->
 	<center>
+
 		<footer id="main">
 			<p class="footer">
-			Created by: Shelby Bushell, Rachel Au, Katy Lee, and Kum San Vanessa Amy Dang-Lam<br>
+			<br>
+<a href="index.html" style="font-family: arial; font-size: 13px; text-align:center;">Visit Smart Cookie for more Recipes</a><br><br>
+Created by: Shelby Bushell, Rachel Au, Katy Lee, and Kum San Vanessa Amy Dang-Lam<br>
 			<br>
 			</p>
 			<p class="class_info">
-			<strong>DG8002 - Website Design<br></strong>
-			@Smart Cookie 2020
+			DG8002 - Website Design<br>
+			Smart Cookie 2020<br><br>
 			</p>
 		</footer>
 	</center>
 
 </body>
 </html>
-
