@@ -316,10 +316,54 @@ ol {
   height: 50%;
 }
 
-/*------------------------HEADER---------------------------*/
+/*------------------------HOVER TEXT---------------------------*/
 
-.navbar {
-  list-style: none;
+#french {
+  color: white;
+}
+
+#bell {
+  color: white;
+}
+
+#pan {
+  color: white;
+}
+
+#fruit {
+  color: white;
+}
+
+#burrito {
+  color: white;
+}
+
+#chickenbreast {
+  color: white;
+}
+
+#noodles {
+  color: white;
+}
+
+#bibimbap {
+  color: white;
+}
+
+#lasagna {
+  color: white;
+}
+
+#spaghetti {
+  color: white;
+}
+
+#salmon {
+  color: white;
+}
+
+#chicken {
+  color: white;
 }
 
 /*------------------------FOOTER---------------------------*/
@@ -370,6 +414,10 @@ footer {
   width: 100%;
   line-height: 13px;
   float: center;
+}
+
+.navbar {
+  list-style: none;
 }
 
 h1 {
