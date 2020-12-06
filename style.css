@@ -210,9 +210,10 @@ ol {
   transform: translate(-50%,-50%);
 
 }
-.txt{
+
+/*.txt{
   color: black;
-}
+}*/
 
 /*-------------DROPDOWN FILTER FOR ALL RECIPES PAGE-----------*/
 .dropbtn {
@@ -318,6 +319,7 @@ ol {
 
 /*------------------------HOVER TEXT---------------------------*/
 
+<<<<<<< HEAD
 #french {
   color: white;
 }
@@ -390,7 +392,12 @@ ol {
 }
 
 #chicken {
-  color: white;
+  color: white;}
+
+
+.font {
+  text-decoration-color: white;
+  color:white;
 }
 
 /*------------------------FOOTER---------------------------*/
