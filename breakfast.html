@@ -39,7 +39,8 @@
 <!-- -------------DIFFERENT ON EACH PAGE------------ -->
 <!-- -------------------BREAKFAST PAGE-------------------- -->
 <center>
-	
+
+<h1> BREAKFAST </h1>
 	<div>
 		<button onclick="on('overlay1')" id="french" style="background-image: url(images/frenchtoast.jpeg); background-size:100%; width:317px; height:177px">
 		</button>
@@ -57,13 +58,13 @@
 			<h4>Ingredients</h4>
 
 			<ul>
-				<li>- 3 slices bread</li>
-				<li>- 2 eggs</li>
-				<li>- 3 tablespoons sugar</li>
-				<li>- 2 tablespoons powdered milk</li>
-				<li>- 1 teaspoon vanilla essence</li>
-				<li>- 2 tablespoon vegetable oil</li>
-				<li>- 1 tablespoon butter</li>
+				<li>3 slices bread</li>
+				<li>2 eggs</li>
+				<li>3 tablespoons sugar</li>
+				<li>2 tablespoons powdered milk</li>
+				<li>1 teaspoon vanilla essence</li>
+				<li>2 tablespoon vegetable oil</li>
+				<li>1 tablespoon butter</li>
 			</ul>
 
 			<h4>Preparation</h4>
@@ -81,7 +82,7 @@
 
 
 	<div>
-		<button onclick="on('overlay2')" class="font" id="bell" style="background-image: url(images/bellpeppereggs.jpg); background-size:100%; width:317px; height:177px"></button>
+		<button onclick="on('overlay2')" id="bell" style="background-image: url(images/bellpeppereggs.jpg); background-size:100%; width:317px; height:177px"></button>
 		<p>Bell Pepper Egg Cups</p>
 		<p>For 2 Servings</p>
 
@@ -119,7 +120,7 @@
 	
 
 	<div>
-		<button onclick="on('overlay3')" class="font" id="pan" style="background-image: url(images/pancakes.jpg); background-size:100%; width:317px; height:177px"></button>
+		<button onclick="on('overlay3')" id="pan" style="background-image: url(images/pancakes.jpg); background-size:100%; width:317px; height:177px"></button>
 		<p>Fluffy Pancakes</p>
 		<p>For 2 Servings</p>
 	</div>
@@ -162,7 +163,7 @@
 
 
 	<div>
-		<button onclick="on('overlay4')" class="font" id= "fruit" style="background-image: url(images/fruityogurt.jpg); background-size:100%; width:317px; height:177px"></button>
+		<button onclick="on('overlay4')" id= "fruit" style="background-image: url(images/fruityogurt.jpg); background-size:100%; width:317px; height:177px"></button>
 		<p>Fruit Yogurt</p>
 		<p>For 2 Servings</p>
 	</div>
@@ -224,26 +225,23 @@
 
        	function changeText(){
        		if(this.id == "french"){
-       			this.textContent = "Time: 15 minutes \r\n Cost: $1 \r\n Ratings: 5/5";
-       			document.getElementById("french").style.opacity = "0.5";
+       			this.textContent = "Time: 15 mins \r\n Cost: $1 \r\n Ratings: 5/5";
 
       		}
       		else if(this.id == "bell"){
-      			this.textContent = "Time: 25 minutes \r\n Cost: $4 \r\n Ratings: 5/5";
+      			this.textContent = "Time: 25 mins \r\n Cost: $4 \r\n Ratings: 5/5";
       		}
       		else if(this.id == "pan"){
-      			this.textContent = "Time: 20 minutes \r\n Cost: $8 \r\n Ratings: 4/5";
+      			this.textContent = "Time: 20 mins \r\n Cost: $8 \r\n Ratings: 4/5";
       		}
       		else{
-      			this.textContent = "Time: 5 minutes \r\n Cost: $1 \r\n Ratings: 5/5";
+      			this.textContent = "Time: 5 mins \r\n Cost: $1 \r\n Ratings: 5/5";
       		}
        	}
 
        function changeBack(){
        		if(this.id == "french"){
        			this.textContent = "";
-       			document.getElementById("french").style.opacity = "";
-
        		}
        		else if(this.id == "bell"){
        			this.textContent = "";
