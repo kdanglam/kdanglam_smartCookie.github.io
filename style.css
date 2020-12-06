@@ -319,37 +319,60 @@ ol {
 
 /*------------------------HOVER TEXT---------------------------*/
 
-<<<<<<< HEAD
 #french {
   color: white;
+  font-size: 17px;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
 }
 
 #bell {
   color: white;
+   font-size: 17px;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
 }
 
 #pan {
   color: white;
+   font-size: 17px;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
 }
 
 #fruit {
   color: white;
+   font-size: 17px;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
 }
 
 #burrito {
   color: white;
+   font-size: 17px;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
 }
 
 #chickenbreast {
   color: white;
+   font-size: 17px;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
 }
 
 #noodles {
   color: white;
+   font-size: 17px;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
 }
 
 #bibimbap {
   color: white;
+   font-size: 17px;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
 }
 
 #textbibimbap {
@@ -363,6 +386,9 @@ ol {
 
 #lasagna {
   color: white;
+   font-size: 17px;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
 }
 
 #textlasagna {
@@ -376,6 +402,9 @@ ol {
 
 #spaghetti {
   color: white;
+   font-size: 17px;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
 }
 
 #textspaghetti {
@@ -389,16 +418,17 @@ ol {
 
 #salmon {
   color: white;
+   font-size: 17px;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
 }
 
 #chicken {
-  color: white;}
-
-
-.font {
-  text-decoration-color: white;
-  color:white;
-}
+  color: white;
+ font-size: 17px;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+  }
 
 /*------------------------FOOTER---------------------------*/
 footer {
@@ -452,6 +482,10 @@ footer {
 
 .navbar {
   list-style: none;
+}
+
+.navbar a:hover {
+  color: brown;
 }
 
 h1 {
@@ -520,28 +554,3 @@ a hover {
   color: #888;
   text-decoration: none;
 }
-
-
-/* =============================
-MENU
-============================= */
-
-/*.menu {
-  width:auto;
-  list-style:none;
-  font:normal normal 10px Verdana, Arial;
-  text-align:center;
-  margin:0 auto;
-}
-.menu a {
-  float:center;
-  color:#999;
-  text-decoration:none;
-  text-transform:uppercase;
-  width:auto;
-  line-height:36px;
-  padding:0 20px;
-}
-.menu a:hover,li.menuhover a{
-  color:#111;
-}*/
