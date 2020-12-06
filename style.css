@@ -208,7 +208,7 @@ ol {
   font-size: 10px;
   color: white;
   transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
+
 }
 .txt{
   color: black;
@@ -350,12 +350,39 @@ ol {
   color: white;
 }
 
+#textbibimbap {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 10px;
+  color: white;
+  transform: translate(-50%,-50%);
+}
+
 #lasagna {
   color: white;
 }
 
+#textlasagna {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  font-size: 10px;
+  color: white;
+  transform: translate(-50%,-50%);
+}
+
 #spaghetti {
   color: white;
+}
+
+#textspaghetti {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  font-size: 10px;
+  color: white;
+  transform: translate(-50%,-50%);
 }
 
 #salmon {
