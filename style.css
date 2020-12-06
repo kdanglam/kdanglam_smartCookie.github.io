@@ -325,11 +325,29 @@ ol {
   text-shadow: 2px 2px black;
 }
 
+#textfrench {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 10px;
+  color: white;
+  transform: translate(-50%,-50%);
+}
+
 #bell {
   color: white;
    font-size: 17px;
   font-weight: bold;
   text-shadow: 2px 2px black;
+}
+
+#textbell {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 10px;
+  color: white;
+  transform: translate(-50%,-50%);
 }
 
 #pan {
@@ -339,11 +357,29 @@ ol {
   text-shadow: 2px 2px black;
 }
 
+#textpan {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 10px;
+  color: white;
+  transform: translate(-50%,-50%);
+}
+
 #fruit {
   color: white;
    font-size: 17px;
   font-weight: bold;
   text-shadow: 2px 2px black;
+}
+
+#textfruit {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 10px;
+  color: white;
+  transform: translate(-50%,-50%);
 }
 
 #burrito {
@@ -353,6 +389,15 @@ ol {
   text-shadow: 2px 2px black;
 }
 
+#textburrito {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 10px;
+  color: white;
+  transform: translate(-50%,-50%);
+}
+
 #chickenbreast {
   color: white;
   font-size: 17px;
@@ -360,11 +405,29 @@ ol {
   text-shadow: 2px 2px black;
 }
 
+#textchickenbreast {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 10px;
+  color: white;
+  transform: translate(-50%,-50%);
+}
+
 #noodles {
   color: white;
    font-size: 17px;
   font-weight: bold;
   text-shadow: 2px 2px black;
+}
+
+#textnoodles {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 10px;
+  color: white;
+  transform: translate(-50%,-50%);
 }
 
 #bibimbap {
@@ -422,12 +485,30 @@ ol {
   text-shadow: 2px 2px black;
 }
 
+#textsalmon {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 10px;
+  color: white;
+  transform: translate(-50%,-50%);
+}
+
 #chicken {
   color: white;
  font-size: 17px;
   font-weight: bold;
   text-shadow: 2px 2px black;
   }
+
+#textchicken {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 10px;
+  color: white;
+  transform: translate(-50%,-50%);
+}
 
 /*------------------------FOOTER---------------------------*/
 footer {
