@@ -30,7 +30,7 @@ ol {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.7);
   z-index: 2;
   cursor: pointer;
   overflow-y: scroll;
@@ -45,7 +45,7 @@ ol {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.7);
   z-index: 2;
   cursor: pointer;
   overflow-y: scroll;
@@ -60,7 +60,7 @@ ol {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.7);
   z-index: 2;
   cursor: pointer;
   overflow-y: scroll;
@@ -90,7 +90,7 @@ ol {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.7);
   z-index: 2;
   cursor: pointer;
   overflow-y: scroll;
@@ -105,7 +105,7 @@ ol {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.7);
   z-index: 2;
   cursor: pointer;
   overflow-y: scroll;
@@ -120,7 +120,7 @@ ol {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.7);
   z-index: 2;
   cursor: pointer;
   overflow-y: scroll;
@@ -135,7 +135,7 @@ ol {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.7);
   z-index: 2;
   cursor: pointer;
   overflow-y: scroll;
@@ -150,7 +150,7 @@ ol {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.7);
   z-index: 2;
   cursor: pointer;
   overflow-y: scroll;
@@ -165,7 +165,7 @@ ol {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.7);
   z-index: 2;
   cursor: pointer;
   overflow-y: scroll;
@@ -180,7 +180,7 @@ ol {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.7);
   z-index: 2;
   cursor: pointer;
   overflow-y: scroll;
@@ -195,7 +195,7 @@ ol {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.7);
   z-index: 2;
   cursor: pointer;
   overflow-y: scroll;
@@ -336,14 +336,14 @@ ol {
 
 #bell {
   color: white;
-   font-size: 17px;
+  font-size: 17px;
   font-weight: bold;
   text-shadow: 2px 2px black;
 }
 
 #textbell {
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 50%;
   font-size: 10px;
   color: white;
@@ -359,7 +359,7 @@ ol {
 
 #textpan {
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 50%;
   font-size: 10px;
   color: white;
@@ -375,7 +375,7 @@ ol {
 
 #textfruit {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   font-size: 10px;
   color: white;
@@ -391,7 +391,7 @@ ol {
 
 #textburrito {
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 50%;
   font-size: 10px;
   color: white;
@@ -407,7 +407,7 @@ ol {
 
 #textchickenbreast {
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 50%;
   font-size: 10px;
   color: white;
@@ -439,7 +439,7 @@ ol {
 
 #textbibimbap {
   position: absolute;
-  top: 60%;
+  top: 90%;
   left: 50%;
   font-size: 10px;
   color: white;
@@ -455,7 +455,7 @@ ol {
 
 #textlasagna {
   position: absolute;
-  top: 70%;
+  top: 130%;
   left: 50%;
   font-size: 10px;
   color: white;
@@ -471,7 +471,7 @@ ol {
 
 #textspaghetti {
   position: absolute;
-  top: 70%;
+  top: 110%;
   left: 50%;
   font-size: 10px;
   color: white;
@@ -480,14 +480,14 @@ ol {
 
 #salmon {
   color: white;
-   font-size: 17px;
+  font-size: 17px;
   font-weight: bold;
   text-shadow: 2px 2px black;
 }
 
 #textsalmon {
   position: absolute;
-  top: 60%;
+  top: 100%;
   left: 50%;
   font-size: 10px;
   color: white;
@@ -496,14 +496,14 @@ ol {
 
 #chicken {
   color: white;
- font-size: 17px;
+  font-size: 17px;
   font-weight: bold;
   text-shadow: 2px 2px black;
   }
 
 #textchicken {
   position: absolute;
-  top: 60%;
+  top: 75%;
   left: 50%;
   font-size: 10px;
   color: white;
