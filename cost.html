@@ -5,11 +5,12 @@
 	<title>Smart Cookie</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <meta charset="utf-8"> -->
 	<link href="style.css" rel="stylesheet" type="text/css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href=“https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=PT+Sans+Narrow&family=Work+Sans:wght@500&display=swap” rel=“stylesheet”>
-
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
 </HEAD>
+
 <body>
 	<div class="front_page">
 
@@ -17,14 +18,12 @@
 			<!-- -----INTERACTIVE HEADER GOES BACK TO HOME PAGE----- -->
 			<a href="index.html" style="text-decoration: none;"> 
 			<center>
-				<img src="images/logo.png" width="200">
+				<img src="images/logo.png" alt="" width="200">
 			</center>
 		</a><br>
 
-		<div class="navbar">
-			<center>
-			<h1>
-			<!-- -------HOME------- -->
+		<div class="navbar"><center>
+			<h1><!-- -------HOME------- -->
 			<a href="index.html">Home</a> &nbsp|
 			<!-- ------BREAKFAST------ -->
 			<a href="breakfast.html">Breakfast</a>&nbsp|
@@ -33,46 +32,36 @@
 			<!-- ------DINNER------- -->
 			<a href="dinner.html">Dinner</a>&nbsp|
 			<!-- ------ALL------- -->
-			<a href="AllRecipes.html">All Recipes</a>
-			</center><br>
-			</h1>
+			<a href="AllRecipes.html">All Recipes</a></center><br></h1>
 		</div>
-	</div>
+</div>
 
 <!-- -------------DIFFERENT ON EACH PAGE------------ -->
 <!-- -------------------ALL RECIPES PAGE-------------------- -->
 
-	<!-- <div class="dropdown">
-	  <button onclick="myFunction()" class="dropbtn">Meal</button>
-	  <div id="myDropdown" class="dropdown-content">
-	  	<input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-	    <a href=".breakfast">Breakfast</a>
-	    <a href=".lunch">Lunch</a>
-	    <a href=".dinner">Dinner</a>
-	  </div>
-	</div> -->
-	<center><div id="myBtnContainer">
+	<center>
+	<div id="myBtnContainer">
   		<button class="btn active" onclick="filterSelection('all')"> Show all</button>
   		<button class="btn" onclick="filterSelection('breakfast')"> Breakfast</button>
   		<button class="btn" onclick="filterSelection('lunch')"> Lunch</button>
   		<button class="btn" onclick="filterSelection('dinner')"> Dinner</button>
-	</div>
-
+	
 	<div class="dropdown">
 	  <button onclick="myFunction()" class="dropbtn">Sort By</button>
 	  <div id="myDropdown" class="dropdown-content">
 	  	<input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-	  	<a href="AllRecipes.html">A to Z</a>
+	    <a href="AllRecipes.html">A to Z</a>
 	    <a href="time.html">Time</a>
 	    <a href="cost.html">Cost</a>
 	    <a href="rating.html">Rating</a>
 	  </div>
 	</div>
-<br><br></center>
+<br><br>
+<center>
+	<div class="container">
 
 	<!-- <div class="center"> -->
-	<center>
-<div class="container">
+<h1>COST (LOW TO HIGH)</h1>
 
 <!-- =======COST====== -->
 <!-- FRUIT -->
@@ -166,15 +155,15 @@
 
 				<h4>Ingredients</h4>
 
-				<ul>
-					<li>- 3 slices bread</li>
-					<li>- 2 eggs</li>
-					<li>- 3 tablespoons sugar</li>
-					<li>- 2 tablespoons powdered milk</li>
-					<li>- 1 teaspoon vanilla essence</li>
-					<li>- 2 tablespoon vegetable oil</li>
-					<li>- 1 tablespoon butter</li>
-				</ul>
+			<ul>
+				<li>3 slices bread</li>
+				<li>2 eggs</li>
+				<li>3 tablespoons sugar</li>
+				<li>2 tablespoons powdered milk</li>
+				<li>1 teaspoon vanilla essence</li>
+				<li>2 tablespoon vegetable oil</li>
+				<li>1 tablespoon butter</li>
+			</ul>
 
 				<h4>Preparation</h4>
 
@@ -733,42 +722,42 @@
 
        // ========== ADD TIME IN TEXT CONTENT==========
 
-       	function changeText(){
-	       	if(this.id == "french"){
-	       		this.textContent = "Time: 15 minutes \r\n Cost: $3 \r\n Ratings: 5/5";
+        function changeText(){
+	       	if(this.id == "burrito"){
+	       		this.textContent = "Time: 15 mins \n Cost: $3 \n Ratings: 5/5";
 	      	}
 	      	else if(this.id == "bell"){
-	      		this.textContent = "Time: 25 minutes \r\n Cost: $5 \r\n Ratings: 5/5";
+	      		this.textContent = "Time: 25 mins \r\n Cost: $5 \r\n Ratings: 5/5";
 	      	}
 	      	else if(this.id == "pan"){
-	      		this.textContent = "Time: 20 minutes \r\n Cost: $8 \r\n Ratings: 4/5";
+	      		this.textContent = "Time: 20 mins \r\n Cost: $8 \r\n Ratings: 4/5";
 	      	}
 	      	else if(this.id == "lasagna"){
-	       		this.textContent = "Time: 40 minutes \r\n Cost: $13 \r\n Ratings: 3/5";
+	       		this.textContent = "Time: 40 mins \r\n Cost: $13 \r\n Ratings: 3/5";
 	      	}
 	      	else if(this.id == "spaghetti"){
-	      		this.textContent = "Time: 40 minutes \r\n Cost: $12 \r\n Ratings: 5/5";
+	      		this.textContent = "Time: 40 mins \r\n Cost: $12 \r\n Ratings: 5/5";
 	      	}
 	      	else if(this.id == "salmon"){
-	      		this.textContent = "Time: 25 minutes \r\n Cost: $15 \r\n Ratings: 5/5";
+	      		this.textContent = "Time: 25 mins \r\n Cost: $15 \r\n Ratings: 5/5";
 	      	}
-	      	else if(this.id == "burrito"){
-	      		this.textContent = "Time: 20 minutes \r\n Cost: $5 \r\n Ratings: 4/5";
+	      	else if(this.id == "french"){
+	      		this.textContent = "Time: 20 mins \r\n Cost: $5 \r\n Ratings: 4/5";
 	      	}
 	      	else if(this.id == "noodles"){
-	      		this.textContent = "Time: 10 minutes \r\n Cost: $2 \r\n Ratings: 2/5";
+	      		this.textContent = "Time: 10 mins \r\n Cost: $2 \r\n Ratings: 2/5";
 	      	}
 	      	else if(this.id == "bibimbap"){
-	       		this.textContent = "Time: 30 minutes \r\n Cost: $7 \r\n Ratings: 5/5";
+	       		this.textContent = "Time: 30 mins \r\n Cost: $7 \r\n Ratings: 5/5";
 	      	}
 	      	else if(this.id == "fruit"){
-	      		this.textContent = "Time: 5 minutes \r\n Cost: $1 \r\n Ratings: 5/5";
+	      		this.textContent = "Time: 5 mins \r\n Cost: $1 \r\n Ratings: 5/5";
 	      	}
 	      	else if(this.id == "chicken"){
-	      		this.textContent = "Time: 45 minutes \r\n Cost: $20 \r\n Ratings: 3/5";
+	      		this.textContent = "Time: 45 mins \r\n Cost: $20 \r\n Ratings: 3/5";
 	      	}
 	      	else{
-	      		this.textContent = "Time: 35 minutes \r\n Cost: $12 \r\n Ratings: 4/5";
+	      		this.textContent = "Time: 35 mins \r\n Cost: $12 \r\n Ratings: 4/5";
 	      	}
        }
 
