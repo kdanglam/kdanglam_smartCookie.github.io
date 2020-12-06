@@ -52,7 +52,7 @@ ol {
 }
 
 #overlay3 {
-  position: absolute;
+  position: fixed;
   display: none;
   width: 100%;
   height: 100%;
