@@ -210,9 +210,10 @@ ol {
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
 }
-.txt{
+
+/*.txt{
   color: black;
-}
+}*/
 
 /*-------------DROPDOWN FILTER FOR ALL RECIPES PAGE-----------*/
 .dropbtn {
@@ -318,52 +319,9 @@ ol {
 
 /*------------------------HOVER TEXT---------------------------*/
 
-#french {
-  color: white;
-}
-
-#bell {
-  color: white;
-}
-
-#pan {
-  color: white;
-}
-
-#fruit {
-  color: white;
-}
-
-#burrito {
-  color: white;
-}
-
-#chickenbreast {
-  color: white;
-}
-
-#noodles {
-  color: white;
-}
-
-#bibimbap {
-  color: white;
-}
-
-#lasagna {
-  color: white;
-}
-
-#spaghetti {
-  color: white;
-}
-
-#salmon {
-  color: white;
-}
-
-#chicken {
-  color: white;
+.font {
+  text-decoration-color: white;
+  color:white;
 }
 
 /*------------------------FOOTER---------------------------*/
